@@ -27,3 +27,7 @@ pip install -r requirements.txt
 
 ## Note
 Video analysis planned for v2.0. This MVP works on caption text only.
+
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![OpenAI](https://img.shields.io/badge/OpenAI-API-green)
+
