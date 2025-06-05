@@ -1,3 +1,59 @@
-.env
+# ------------------------
+# Python bytecode/cache
+# ------------------------
 __pycache__/
-outputs/
+*.py[cod]
+*.so
+
+# ------------------------
+# Virtual environment
+# ------------------------
+venv/
+env/
+ENV/
+
+# ------------------------
+# Environment & Secrets
+# ------------------------
+.env
+.env.*
+
+# ------------------------
+# Jupyter Notebook
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# VS Code & editor configs
+# ------------------------
+.vscode/
+*.code-workspace
+
+# ------------------------
+# Logs and local outputs
+# ------------------------
+*.log
+*.tmp
+*.bak
+
+# ------------------------
+# OS-specific files
+# ------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------
+# Python packaging (optional)
+# ------------------------
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ------------------------
+# Ignore Mac .Spotlight files (if applicable)
+# ------------------------
+.Spotlight-V100/
+.Trashes/
+
